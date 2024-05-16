@@ -38,8 +38,48 @@
 // alert(result2)
 
 
-let question = prompt("Как вас зовут?")
+// let question = prompt("Как вас зовут?")
 
-let helloMessage = `Привет ${question}`
+// let helloMessage = `Привет ${question}`
 
-alert(helloMessage)
+// alert(helloMessage)
+
+// let isTrue = 52 < 6;
+
+// alert(isTrue)
+
+// let false = "ads".length == 3; // а правда ли в строке три символа?
+
+// alert(false)
+
+// let age = prompt("Сколько вам лет?")
+
+// if (age > 18) {
+//     alert("Вы можете пройти в клуб.")
+// }
+
+// else if (age < 18) {
+//     alert("Вы не можете пройти в клуб.")
+// }
+
+// else {
+//     alert("Вы можете пройти в клуб.")
+// }
+
+// == это просто равно ему похуй число или строка а === там если у тебя была строка а ты её с числом спавнил то ничего не будет
+
+
+
+let age = prompt("Сколько вам лет?")
+
+// switch(Number(age)) {
+//     case 18:
+//         alert("Вы проходите в клуб.")
+//         break// что бы перестало выполняться
+//     case 19:
+//         alert("Вы не проходите в клуб.")
+// }
+
+let mess = (age >= 18) ? "Вы проходите" : "Вы не проходите"
+
+alert(mess)
